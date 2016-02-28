@@ -40,6 +40,7 @@ public class DataBaseHelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
+
         Log.d("stringCreate", "stringCreate: " + CREATE_TODO_TABLE);
         db.execSQL(CREATE_TODO_TABLE);
     }
